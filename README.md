@@ -20,22 +20,16 @@ The results of the experiments are summarized in the following table:
 
 Experiment	Parameters (Enc., Dec., Training Steps, Batch Size)	CER Results
 
-Baseline 1	RNN, Def., 10,000, 60	17.63
-
-Baseline 2	RNN, Def., 12,000, 60	12.56
-
-Baseline 3	RNN, Def., 15,000, 60	14.63
-
-Model 3	BiRNN, Trans., 10,000, 56	2.2
-
-Model 4	BiRNN, Trans., 12,500, 56	1.2
-
-Model 5	BiRNN, Trans., 10,000, 60	0.703
-
-Model 6	BiRNN, Trans., 14,000, 60	0.685
-
-Model 7	BiRNN, Trans., 12,000, 60	0.703
-
-Model 8	BiRNN, Trans., 16,000, 60	0.703
+|Title|Encoder|Decoder|Training Steps|Batch Size|
+---- ----- ----- ------ -------------------
+| Baseline 1 | RNN, | Def., | 10,000,  | 60	| 17.63 |
+| Baseline 2 | RNN, | Def., | 12,000, | 60	| 12.56 |
+| Baseline 3 |	RNN, | Def., | 15,000, | 60	| 14.63 |
+| Model 3 | BiRNN, | Trans., | 10,000, | 56	| 2.2 |
+| Model 4	| BiRNN, | Trans., | 12,500, | 56	| 1.2 |
+| Model 5	| BiRNN, | Trans., | 10,000, | 60	| 0.703 |
+| Model 6	| BiRNN, | Trans., | 14,000, | 60	| 0.685 |
+| Model 7	| BiRNN, | Trans., | 12,000, | 60	| 0.703 |
+| Model 8	| BiRNN, | Trans., | 16,000, | 60 |	0.703 |
 
 These results demonstrate the effectiveness of the neural models in achieving low character error rates, with the best-performing model achieving a CER of 0.685. The experimentation with different parameters and architectures highlights the importance of fine-tuning these elements for optimal results in Nahuatl orthographic normalization.
