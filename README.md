@@ -21,7 +21,7 @@ The results of the experiments are summarized in the following table:
 Experiment	Parameters (Enc., Dec., Training Steps, Batch Size)	CER Results
 
 |Title|Encoder|Decoder|Training Steps|Batch Size|
----- ----- ----- ------ -------------------
+---- | ----- | ----- | ------ | ------
 | Baseline 1 | RNN, | Def., | 10,000,  | 60	| 17.63 |
 | Baseline 2 | RNN, | Def., | 12,000, | 60	| 12.56 |
 | Baseline 3 |	RNN, | Def., | 15,000, | 60	| 14.63 |
